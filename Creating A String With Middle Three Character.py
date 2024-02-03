@@ -1,0 +1,9 @@
+# Creating A String With Middle Three Character...
+# Taking input a string...
+s = str(input("Enter a string: "))
+first_middle_char = s[(len(s)//2)-1]   # First middle character
+second_middle_char = s[len(s)//2]  # Second ,middle character
+third_middle_char = s[(len(s)//2)+1]   # Third middle character
+
+# Printing Of string...
+print("The string with middle three character will be: ",first_middle_char+second_middle_char+third_middle_char )
