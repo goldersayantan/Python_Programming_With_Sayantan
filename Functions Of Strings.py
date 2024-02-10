@@ -13,6 +13,12 @@ st2 = str(input("Enter another to concatenate: "))
 new_string = st1 + st2
 print("After Concatenation: \nThe string will be: ", new_string)
 
+# String Slicing...
+print("For String Slicing:")
+start = int(input("Enter the starting index: "))
+stop = int(input("Enter the ending index: "))
+print("After Slicing:\nThe required string is: ", new_string[start:stop])
+
 # Uppercasing The Entire String...
 upp_string = new_string.upper()
 print("The string in uppercase will be: ", upp_string)
