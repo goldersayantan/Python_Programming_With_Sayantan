@@ -9,9 +9,3 @@ for i in range(num1):
 # converting list into tuple...
 tup = tuple(temp)
 print("The tuple is: ", tup)
-
-# Any work for tuple:
-        # Convert the tuple into list
-        # Do some works
-        # Convert the list into tuple
-        
